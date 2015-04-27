@@ -1,0 +1,288 @@
+@charset "utf-8";
+/* CSS Document */
+/*------------------导航栏------------------*/
+body {
+	margin: 0;
+	font: 0.75em/1.75em 'Arial', Helvetica, Arial, sans-serif;	
+	color: #525252;
+	background: #fff;
+	padding: 0;
+	position: relative;
+}
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+#header{
+	width:both;
+	height:39px;
+	display:block;
+	background:#000;
+}
+#menu-primary {
+	font-size: 1em;
+	z-index: 99;
+	float:left;
+	margin-left:223px;
+}
+#menu-primary li {
+	display: block;
+	float: left;
+	min-height: 30px;
+	background: #000;
+}
+#menu-primary li a {
+	font-family: '微软雅黑';
+	font-size: 1.2em;
+	font-weight: 400;
+	display: block;
+	text-decoration: none;
+	line-height:39px;
+	height:39px;
+	padding:0 20px;
+	color:#fff;
+}
+#menu-primary li.line1{color:#fff;background:#069;}
+#menu-primary li a:hover {
+	color: #fff;
+	border-bottom: none;
+	background:#0C0;
+}
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/*--------------------------------------------------------*/
+#framework
+{
+	width:932px;
+	height:auto;
+	display:block;
+	background:#999;
+	margin:0 auto;
+	position:relative;
+	top:60px;
+	}
+/*----------------------------------------------------------*/
+#head
+{
+	width:932px;
+	height:106px;
+	margin:0 auto;
+	display:block;
+	background:url(../../image/xiu0.jpg);
+	float:up;
+	}
+#avatar
+{
+	width:71px;
+	height:71px;
+	display:block;
+	background:url(../../image/fd039245d688d43fa65408f37f1ed21b0ef43b35.jpg);
+	position:relative;
+	top:20px;
+	left:37px;
+	border-style:inset;
+	}
+#headline
+{
+	position:relative;
+	top:-35px;
+	left:178px;
+	font-size:xx-large;
+	font-style:oblique;
+	font-weight:bold;
+	font-family:"Microsoft Yahei",Arial,"宋体";
+	}
+#topic
+{
+	width:930px;
+	height:50px;
+	display:block;
+	background:#FFF;
+	border:1px solid #CCC;
+	float:up;
+	}
+#word
+{
+	font-family:'微软雅黑';
+	font-size:20px;
+	font-weight:400;
+	position:relative;
+	top:16px;
+	left:36px;
+	}
+/*--------------------------------------------*/
+
+#reply li
+{
+	width:930px;
+	display:block;
+	margin:0 auto;
+	background:#FFF;
+	word-break:break-all;
+	border-bottom:1px solid #CCC;
+	border-right:1px solid #CCC;
+	border-left:1px solid #CCC;
+	position:relative;
+	top:15px;
+	left:-41px;
+	}
+/*--------------------------------------------*/
+#page-turn
+{
+width: 1131px;
+height: 40px;
+margin: 0 auto;
+display: block;
+background: #979797;
+border: 0px solid #FFF;
+border-radius: 10px;
+position: relative;
+left: -75px;
+top:14px;
+	}
+#page-turn div
+{
+width: 42px;
+height: 41px;
+display: block;
+background: transparent;
+border-right: 0px solid #FFF;
+position: relative;
+left: 76px;
+top: -25px;
+float: left;
+	}
+#page-turn div a
+{
+	font-family:'微软雅黑';
+	font-size:22px;
+	position:relative;
+	top:8px;
+	left:11px;
+	color:#CCC;
+	}
+a:link
+{
+	text-decoration:none;
+	}
+/*-----------------------------------------------*/
+#release
+{
+width: 930px;
+height: 348px;
+display: block;
+background: #F1FFEC;
+border: 1px solid #FFF;
+float: up;
+margin: 0 auto;
+position: relative;
+top: 29px;
+border-radius: 55px;
+	}
+#haha
+{
+display: block;
+color: #000;
+font-family: '微软雅黑';
+font-size: 26px;
+font-weight: bold;
+position: relative;
+top: 18px;
+left: -12px;
+	}
+#hehe
+{
+width: 471px;
+height: 193px;
+display: block;
+font-size: 22px;
+position: relative;
+top: 47px;
+left: -10px;
+border-radius: 21px;
+	}
+#xixi
+{
+font-size: 23px;
+width: 68px;
+height: 37px;
+position: relative;
+top: 67px;
+left: 33px;
+border: 1px solid #9a9a9a;
+background: #78C0E4;
+color: #FFF;
+	}
+/*------------------------------------*/
+#avatar1
+{
+	width:70px;
+	height:70px;
+	position:relative;
+	top:35px;
+	left:60px;
+	display:block;
+	background:#CCC;
+	}
+#username1
+{
+	display:block;
+	font-family:'微软雅黑';
+	font-size:16px;
+	position:relative;
+	top:60px;
+	left:75px;
+	}
+#content1
+{	
+	width:600px;
+	word-break:break-all;
+	display:block;
+	font-family:'微软雅黑';
+	font-size:16px;
+	position:relative;
+	top:-56px;
+	left:300px;
+border-radius: 27px;
+	}
+	
+.inputTmp {
+	line-height: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 1px 1px 1px #333;
+	border-radius: 5px;
+	margin: 0 20px 20px 0;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #1e7db9;
+box-shadow: 0 1px 2px #8fcaee inset, 0 -1px 0 #497897 inset, 0 -2px 3px
+ #8fcaee inset;
+	background: -webkit-linear-gradient(top, #42a4e0, #2e88c0);
+	background: -moz-linear-gradient(top, #42a4e0, #2e88c0);
+	background: linear-gradient(top, #42a4e0, #2e88c0);
+}
+
+
+.inputTmp2 {
+font-size: 28px;
+width: 40px;
+height: 39px;
+line-height: 38px;
+text-align: center;
+font-weight: bold;
+color: #fff;
+text-shadow: 0px 0px 0px #333;
+border-radius: 10px;
+margin: 0 20px 20px 0;
+position: relative;
+overflow: hidden;
+border: 0px solid #1e7db9;
+background: -webkit-linear-gradient(top, #37434B, #030B0F);
+background: -moz-linear-gradient(top, #42a4e0, #2e88c0);
+background: linear-gradient(top, #42a4e0, #2e88c0);
+}
